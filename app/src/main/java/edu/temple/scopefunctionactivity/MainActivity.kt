@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 (sortedList.sorted()[sortedList.size / 2] + sortedList[(sortedList.size - 1) / 2]) / 2
             else
                 sortedList.sorted()[sortedList.size / 2]
-            avg < median
+            avg > median
         }
         /*val avg = listOfNumbers.average()
         val sortedList = listOfNumbers.sorted()
